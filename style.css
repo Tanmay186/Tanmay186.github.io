@@ -1,0 +1,40 @@
+.bkrg-img {
+  background-image: url('Santorini.jpg');
+  height: 100%;
+  position: relative;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption span.border {
+  color: #f2f2f2;
+  padding: 3px;
+  font-size: 70px;
+  letter-spacing: 5px;
+  font-family: sansation-light;
+}
+
+.caption {
+  position: fixed;
+  left: 0%;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+@font-face {
+    font-family: sansation-light;
+    src: url('./font/Sansation_Light.ttf');
+}
+
+div {
+  display: block;
+}
+
+body, html {
+  height: 100%;
+  margin:  0;
+  display: block;
+}
